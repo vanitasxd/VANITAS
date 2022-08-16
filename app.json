@@ -1,0 +1,93 @@
+{
+    "name": "BOBIZ - MD",
+    "description": "BOBIZMD  - Makes it easy and fun to use Whatsapp.",
+    "logo": "https://telegra.ph/file/201b5c02be1e336a29c60.jpg",
+    "keywords": ["whatsapp", "userbot", "bobiz", "bot", "ai" , "MD" ],
+    "repository": "https://github.com/bobizbotmd/BOBIZ-MD",
+    "website":   "",
+    "success_url": "",
+    "stack": "container",
+     "env": {
+            "BOBIZ_SESSION": {
+            "description": "qr session code",
+            "required": true
+             },
+             
+           
+           "URL_1NAME": {
+            "description": "",
+            "value": "إنستغرامي" ,
+            "required": true
+      },
+           "URL_1LINK": {
+            "description": "",
+            "value": "http://instagram.com/mohammed_xf16" ,
+            "required": true
+      },
+     "URL_2NAME": {
+            "description": "",
+            "value": "موقعي" ,
+            "required": true
+      },
+       "URL_2LINK": {
+            "description": "",
+            "value": "https://github.com/bobizbotmd/BOBIZ-MD" ,
+            "required": true
+      },
+      
+      "ALIVE_MESSAGE": {
+            "description": "add text",
+            "value": "default", 
+            "required": true
+      },
+      "ALIVE_LOGO": {
+            "description": "add direct image url",
+            "value": "https://telegra.ph/file/201b5c02be1e336a29c60.jpg" ,
+            "required": true
+      },
+     
+       "SONG_DOWN": {
+            "description": "song downloading text",
+            "value": "*📥Downloading your song...*" ,
+            "required": true
+      }, 
+        "SONG_UP": {
+            "description": "song uploading text",
+            "value": "*📤Uploading your song...*" ,
+            "required": true
+      },
+          "VIDEO_DOWN": {
+            "description": "video downloading text",
+            "value": "*📥Downloading your video...*" ,
+            "required": true
+      },
+          "VIDEO_UP": {
+            "description": "video uploading text",
+            "value": "*📤Uploading your video...*" ,
+            "required": true
+      },
+          "FILE_DOWN": {
+            "description": "file downloading text",
+            "value": "*📥Downloading your file...*" ,
+            "required": true
+      },
+          "FILE_UP": {
+            "description": "file uploading text",
+            "value": "*📤Uploading your file...*" ,
+            "required": true
+      },
+          "STIC_WM": {
+            "description": "sticker watermark",
+            "value": "BOBIZ-MD" ,
+            "required": true
+      }
+         
+        
+     },
+    "addons": [{
+      "plan": "heroku-postgresql"
+    }],
+    "buildpacks": [{
+      "url": "heroku-community/apt"
+      }]
+  }
