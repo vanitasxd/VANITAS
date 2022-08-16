@@ -1,22 +1,22 @@
 {
-  "name": "Bobiz-MD",
+  "name": "VANITAS",
   "version": "1.0.0",
   "description": "undefined",
-  "main": "/bobiz/index.js",
+  "main": "/VANITAS/index.js",
   "scripts": {
     "start": "supervisor -s index.js"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/bobizbotmd"
+    "url": "https://github.com/vanitasxd/VANITAS"
   },
   "author": "unknown",
   "developer": "unknown",
   "license": "GPL-3.0-or-later",
   "bugs": {
-    "url": "https://github.com/bobizbotmd"
+    "url": "https://github.com/vanitasxd/VANITAS"
   },
-  "homepage": "https://github.com/bobizbotmd",
+  "homepage": "https://github.com/vanitasxd/VANITAS",
   "dependencies": {
     "@adiwajshing/baileys": "^4.1.0",
     "@adiwajshing/keyed-db": "^0.2.4",  
